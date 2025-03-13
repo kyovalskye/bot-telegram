@@ -105,7 +105,7 @@ bot.on("message", async (msg) => {
       bot.sendMessage(chatId, "Teks yang Anda ketik tidak sesuai. Coba lagi!");
     }
 
-    delete userTests[chatId]; // Hapus tes setelah selesai
+    delete userTests[chatId]; 
     return;
   }
 
