@@ -117,6 +117,15 @@ bot.on("message", async (msg) => {
     return;
   }
   if (
+    userMessage?.includes("web lulus april") ||
+    userMessage?.includes("web kirjang") ||
+    userMessage?.includes("web sirkel kirjang") ||
+    userMessage?.includes("website lulus april")
+  ) {
+    bot.sendMessage(chatId, "https://ubig.vercel.app");
+    return;
+  }
+  if (
     userMessage?.includes("siapa band favorit samid") ||
     userMessage?.includes("siapa band favorit samit") ||
     userMessage?.includes("siapa band favorit samidi") ||
